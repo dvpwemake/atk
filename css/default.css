@@ -7205,7 +7205,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.6); }
+    background-color: rgba(0, 0, 0, 0.3); }
   .bg-hero.colored:before {
     background-color: rgba(7, 104, 193, 0.6); }
   .bg-hero .container {
