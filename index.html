@@ -57,30 +57,32 @@
 </nav>
 
 
-        <!--hero header-->
-        <section class="py-7 py-md-0 bg-hero" id="home" style="background-image: url(img/4.jpg)">
-            <div class="container">
-                <div class="row vh-md-100">
-                    <div class="col-md-6 col-sm-10 my-auto mx-auto text-center">
-                        <h1 class="display-4 text-white">Advanced Transport Kinetics</h1>
-                        <p class="lead text-light mb-5">REDEFINE HOW THINGS MOVE</p>
-                        
+<!--hero header-->
+<section class="py-7 py-md-0 position-relative overflow-hidden" id="home" style="min-height: 100vh;">
 
-                        <!--
-                        <a href="#subscribe" class="btn btn-primary page-scroll d-inline-flex flex-row align-item-center">
-                            <em class="mr-2" data-feather="mail" width="20" height="20"></em>
-                            Join Us
-                        </a>
-                        <a href="#about" class="btn btn-light ml-2 page-scroll d-inline-flex flex-row align-item-center">
-                            <em class="mr-2" data-feather="info" width="20" height="20"></em>
-                            Invest
-                        </a>-->
-                    </div>
-                </div>
+    <!-- Video Background (NOW PLAYING) -->
+    <video 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+        <source src="img/ATK_SSD.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content (kept exactly as before) -->
+    <div class="container position-relative" style="z-index: 2;">
+        <div class="row vh-md-100">
+            <div class="col-md-6 col-sm-10 my-auto mx-auto text-center">
+                <h1 class="display-4 text-white">Advanced Transport Kinetics</h1>
+                <p class="lead text-light mb-5">REDEFINE HOW THINGS MOVE</p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <!-- airship section -->
+        <!-- SSE section -->
         <section class="py-7 bg-light" id="airship">
             <div class="container">
                 <div class="row">
